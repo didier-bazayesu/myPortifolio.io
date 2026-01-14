@@ -41,10 +41,10 @@ export const PROJECTS: Project[] = [
 
 export const EDUCATION: Education[] = [
   {
-    degree: "Advanced Diploma in Computer Science (Ongoing)",
+    degree: "Advanced Diploma in IT (Ongoing)",
     institution: "Tumba College",
     location: "Kigali, Rwanda",
-    period: "2025 – 2027"
+    period: "2024 – 2027"
   },
   {
     degree: "High School Diploma",
