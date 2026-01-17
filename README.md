@@ -6,6 +6,8 @@ A modern, professional portfolio website built with React, TypeScript, and Tailw
 
 Visit: [https://didier-bazayesu.github.io/myPortifolio.io/](https://didier-bazayesu.github.io/myPortifolio.io/)
 
+> **Note:** If the site is not loading, check GitHub Actions workflow status and ensure GitHub Pages source is set to "GitHub Actions" in repository settings.
+
 ## 🛠️ Tech Stack
 
 - **React 19** - UI framework
