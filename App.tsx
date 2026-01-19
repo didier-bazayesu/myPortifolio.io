@@ -3,7 +3,8 @@ import React, { useState } from 'react';
 
 import { Navigation } from './components/Navigation';
 import { Hero } from './components/Hero';
-import { 
+import didierImage from './components/didier.jpg';
+import {
   SKILL_CATEGORIES, 
   PROJECTS, 
   EDUCATION, 
@@ -85,8 +86,8 @@ const App: React.FC = () => {
               <div className="flex-1 relative">
                 <div className="aspect-square rounded-3xl overflow-hidden shadow-2xl transform rotate-3 bg-blue-50 relative group">
                   <img 
-                    src="https://picsum.photos/seed/didier/800/800" 
-                    alt="Didier Working" 
+                    src={didierImage} 
+                    alt="Didier Bazayesu" 
                     className="object-cover w-full h-full grayscale hover:grayscale-0 transition-all duration-700"
                   />
                   <div className="absolute inset-0 bg-blue-600/10 group-hover:bg-transparent transition-colors"></div>
