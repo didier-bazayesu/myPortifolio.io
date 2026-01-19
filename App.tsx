@@ -83,14 +83,16 @@ const App: React.FC = () => {
                   </a>
                 </div>
               </div>
-              <div className="flex-1 relative">
-                <div className="aspect-square rounded-3xl overflow-hidden shadow-2xl transform rotate-3 bg-blue-50 relative group">
+              <div className="flex-1 relative w-full max-w-md mx-auto md:max-w-none">
+                <div className="aspect-square rounded-3xl overflow-hidden shadow-2xl transform rotate-3 bg-blue-50 relative group max-w-full">
                   <img 
                     src={didierImage} 
                     alt="Didier Bazayesu" 
                     className="object-cover w-full h-full grayscale hover:grayscale-0 transition-all duration-700"
                     loading="lazy"
                     decoding="async"
+                    fetchpriority="low"
+                    style={{ maxWidth: '100%', height: 'auto' }}
                   />
                   <div className="absolute inset-0 bg-blue-600/10 group-hover:bg-transparent transition-colors"></div>
                 </div>
@@ -190,6 +192,8 @@ const App: React.FC = () => {
                       className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-700"
                       loading="lazy"
                       decoding="async"
+                      fetchpriority="low"
+                      style={{ maxWidth: '100%', height: 'auto' }}
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-8">
                       <a 
