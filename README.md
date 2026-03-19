@@ -4,7 +4,7 @@ A modern, professional portfolio website built with React, TypeScript, and Tailw
 
 ## 🚀 Live Site
 
-Visit: [My protifolio](https://my-portifolio-io.vercel.app/)
+Visit: [https://my-portifolio-io.vercel.app/](https://my-portifolio-io.vercel.app/)
 
 > **Note:** If the site is not loading, check GitHub Actions workflow status and ensure GitHub Pages source is set to "GitHub Actions" in repository settings.
 
