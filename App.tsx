@@ -86,7 +86,7 @@ const App: React.FC = () => {
               <div className="flex-1 relative">
                 <div className="aspect-square rounded-3xl overflow-hidden shadow-2xl transform rotate-3 bg-blue-50 relative group">
                   <img 
-                    src={didierImage} 
+                    src='./components/didier.jpg' 
                     alt="Didier Bazayesu" 
                     className="object-cover w-full h-full grayscale hover:grayscale-0 transition-all duration-700"
                   />
