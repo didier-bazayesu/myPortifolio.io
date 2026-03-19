@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 
 import { Navigation } from './components/Navigation';
 import { Hero } from './components/Hero';
-import didierImage from './components/didier.jpg';
+import { didierImage } from './components/picture';
 import {
   SKILL_CATEGORIES, 
   PROJECTS, 
@@ -98,10 +98,10 @@ const App: React.FC = () => {
                     <div className="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center">
                       <Briefcase className="w-5 h-5 text-green-600" />
                     </div>
-                    <div>
-                      <div className="text-sm font-bold text-slate-900">Internship Ready</div>
-                      <div className="text-xs text-slate-500">Available from June 2025</div>
-                    </div>
+                    <a href="#contact">
+                      <div className="text-sm font-bold text-slate-900">Job Ready ?</div>
+                      <div className="text-xs text-slate-500">{new Date().toLocaleDateString()}</div>
+                    </a>
                   </div>
                 </div>
               </div>
