@@ -1,5 +1,8 @@
 
 import { SkillCategory, Project, Education } from './types';
+import { hackertonImage } from './components/picture';
+import { codeImage } from './components/picture';
+
 
 export const COLORS = {
   primary: '#2563eb',
@@ -28,14 +31,14 @@ export const PROJECTS: Project[] = [
     description: "Full-stack web application based on the Tabiya taxonomy that maps skills to jobs for educational and workforce planning. I implemented responsive React interfaces, secure APIs, and PostgreSQL data models to make complex information easy to explore.",
     tech: ["React", "Node.js", "PostgreSQL", "Tailwind CSS"],
     link: "https://github.com/caleb-tuyisingize/Capston_project",
-    image: "https://picsum.photos/seed/capstone/800/600"
+    image: hackertonImage
   },
   {
     title: "Secure Management System",
     description: "Secure records management system with role-based access, authentication, and audit-friendly data handling. Focused on clean API design, database structure, and reliable user workflows suitable for organisations that handle sensitive information.",
     tech: ["Express", "PostgreSQL", "React", "Git"],
     link: "https://github.com/dosite-cyiza/Mapping-jobs-and-skills",
-    image: "https://picsum.photos/seed/management/800/600"
+    image: codeImage
   }
 ];
 
