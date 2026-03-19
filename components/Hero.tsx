@@ -58,7 +58,7 @@ export const Hero: React.FC = () => {
               <Github className="w-6 h-6" />
             </a>
             <a
-              href="/Didier_Bazayesu_CV.pdf"
+              href="https://drive.google.com/file/d/1wsdcnTmmRUAvlq2I-VolGk3i949WxIvI/view"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center space-x-2 text-sm font-medium hover:text-blue-600 transition-colors"
