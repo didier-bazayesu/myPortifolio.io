@@ -1,6 +1,6 @@
-
 {
-  "name": "Didier Bazayesu Portfolio",
-  "description": "A high-end, interactive professional portfolio for Didier Bazayesu, featuring AI-assisted insights and smooth animations.",
-  "requestFramePermissions": []
+  "name": "3D Book Portfolio - Didier Bazayesu",
+  "description": "An interactive luxury 3D hardcover book portfolio for Didier Bazayesu, Full Stack Developer.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
