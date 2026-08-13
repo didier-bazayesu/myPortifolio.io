@@ -18,10 +18,11 @@ export default function Cover() {
             text={profile.name.toUpperCase()}
             className="cursor-default font-display text-[13vw] font-medium leading-[0.92] tracking-tight sm:text-[9vw] lg:text-[6.4vw]"
           />
-          <p className="mt-6 max-w-md text-sm leading-relaxed text-paper/60">
-            A working record of design and code — hover the name above,
-            then keep scrolling. Each chapter lands on the last.
-          </p>
+          <ScrambleText
+           className="mt-6 max-w-md text-sm leading-relaxed text-paper/60"
+            text="A working record of design and code — hover the name above,
+            then keep scrolling. Each chapter lands on the last."
+          />
         </div>
 
        

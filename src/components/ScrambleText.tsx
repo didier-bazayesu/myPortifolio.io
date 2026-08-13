@@ -8,10 +8,7 @@ interface ScrambleTextProps {
   as?: "h1" | "h2" | "span";
 }
 
-/**
- * On hover, each character is briefly replaced with random letters before
- * "locking in" left to right, then resolves back to the source word.
- */
+
 export default function ScrambleText({
   text,
   className = "",
