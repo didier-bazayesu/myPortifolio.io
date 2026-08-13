@@ -4,7 +4,7 @@ export const profile = {
   location: "Tumba, Kigali, Rwanda",
   phone: "+250 790 213 746",
   email: "didierbazayesu@gmail.com",
-  github: "github.com/didierbazayesu",
+  github: "github.com/didier-bazayesu",
   summary:
     "Creative and technically skilled individual with hands-on experience in graphic design tools — Figma, Adobe Suite, and Canva — combined with strong full-stack web development skills. Experienced through academic projects and competitive hackathons, with a sharp eye for visual communication, branding, and UI design. Seeking a role to build a strong portfolio and contribute innovative visual solutions in a professional environment.",
 };
