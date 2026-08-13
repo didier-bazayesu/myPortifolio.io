@@ -24,13 +24,12 @@ export default function Cover() {
           </p>
         </div>
 
-        {/* Portrait frame — duotone to sit inside the ink/gold cover palette.
-            Drop your photo in /public as portrait.jpg to fill it. */}
+       
         <div className="relative h-40 w-40 shrink-0 self-start justify-self-start sm:h-52 sm:w-52 lg:h-64 lg:w-64 lg:justify-self-end">
           <div className="absolute inset-0 translate-x-2 translate-y-2 border border-gold/40" />
           <div className="relative h-full w-full overflow-hidden border border-gold/70 bg-paper-deep/10">
             <img
-              src="/portrait.jpg"
+              src="/portrait.jpeg"
               alt={profile.name}
               className="h-full w-full object-cover grayscale"
               style={{ mixBlendMode: "luminosity" }}
