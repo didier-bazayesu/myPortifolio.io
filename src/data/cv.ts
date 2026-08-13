@@ -1,7 +1,7 @@
 export const profile = {
   name: "Didier Bazayesu",
   role: "Full-Stack Developer & UI Designer",
-  location: "Tumba, Rulindo, Rwanda",
+  location: "Tumba, Kigali, Rwanda",
   phone: "+250 790 213 746",
   email: "didierbazayesu@gmail.com",
   github: "github.com/didierbazayesu",
