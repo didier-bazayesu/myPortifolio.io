@@ -13,17 +13,30 @@ export default function Work() {
 
         <div className="grid gap-6 md:grid-cols-2">
           {projects.map((p) => (
-            <a
+            <div
               key={p.title}
-              href={`https://${p.link}`}
-              className="group flex flex-col justify-between rounded-lg border border-rule bg-paper-deep/50 p-6 shadow-card transition hover:-translate-y-1 hover:border-gold"
+              className="group relative flex flex-col justify-between rounded-lg border border-rule bg-paper-deep/50 p-6 shadow-card transition hover:-translate-y-1 hover:border-gold"
             >
+              {p.demo && (
+                <a
+                  href={p.demo}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="absolute right-4 top-4 z-10 rounded-full border border-gold bg-paper-deep px-2.5 py-1 font-mono text-[10px] uppercase tracking-wide text-gold shadow-card transition hover:bg-gold hover:text-paper-deep"
+                >
+                  Web ↗
+                </a>
+              )}
               <div>
-                <div className="mb-3 flex items-center justify-between">
-                  <span className="font-mono text-xs text-rust">{p.year}</span>
-                  <span className="font-mono text-[11px] text-ink-soft opacity-0 transition group-hover:opacity-100">
+                <div className="mb-3 flex items-center justify-end">
+                  <a
+                    href={`https://${p.link}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-mono text-[11px] text-ink-soft opacity-0 transition group-hover:opacity-100"
+                  >
                     {p.link} ↗
-                  </span>
+                  </a>
                 </div>
                 <h3 className="font-display text-xl leading-snug text-ink">
                   {p.title}
@@ -47,7 +60,7 @@ export default function Work() {
                   </span>
                 ))}
               </div>
-            </a>
+            </div>
           ))}
         </div>
       </div>

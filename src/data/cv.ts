@@ -48,28 +48,33 @@ export const languages = [
 
 export const projects = [
   {
-    year: "2025",
+    title: "StyleHub — Full-Stack E-Commerce Marketplace",
+    tech: [
+      "React",
+      "NestJS",
+      "Prisma",
+      "PostgreSQL",
+      "Stripe API",
+      "Tailwind CSS",
+    ],
+    points: [
+      "Built a multi-role e-commerce marketplace with Admin, Vendor, and Customer dashboards",
+      "Integrated Stripe for payments and built a webhook-driven order/notification system",
+      "Implemented vendor onboarding and admin controls for order cancellations and refunds",
+    ],
+    link: "github.com/didier-bazayesu/stylehub",
+    demo: "https://stylehub-pu8q.vercel.app/",
+  },
+  {
     title: "Hackathon Challenge — Full-Stack Web App",
     tech: ["React", "Node.js", "PostgreSQL", "Tailwind CSS", "Stripe API"],
     points: [
-      "Designed complete UI wireframes and user flows in Figma before development",
       "Built a full-stack web app based on the Tabiya taxonomy to manage complex occupational data",
-      "Implemented a responsive front-end with Tailwind CSS and React, ensuring pixel-perfect design",
-      "Integrated the Stripe API for payment workflows and managed relational data in PostgreSQL",
-    ],
-    link: "github.com/caleb-tuyisingize/Capston_project",
-  },
-  {
-    year: "2024",
-    title: "Management System — Record & Authentication Platform",
-    tech: ["Node.js", "Express", "PostgreSQL", "React", "Git"],
-    points: [
-      "Designed system architecture, interface mockups, and navigation flows",
-      "Built a secure RESTful API for record management with user authentication workflows",
-      "Managed relational data with PostgreSQL and led team collaboration using Git/GitHub",
-      "Produced technical documentation and maintained code quality across the codebase",
+      "Designed complete UI wireframes and user flows in Figma before development",
+      "Implemented a pixel-perfect responsive front-end and integrated the Stripe API for payments",
     ],
     link: "github.com/dosite-cyiza/Mapping-jobs-and-skills",
+    demo: "https://mapping-jobs-and-skills.vercel.app/",
   },
 ];
 
