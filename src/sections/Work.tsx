@@ -17,15 +17,19 @@ export default function Work() {
               key={p.title}
               className="group relative flex flex-col justify-between rounded-lg border border-rule bg-paper-deep/50 p-6 shadow-card transition hover:-translate-y-1 hover:border-gold"
             >
-              {p.demo && (
+              {p.demo ? (
                 <a
                   href={p.demo}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="absolute right-4 top-4 z-10 rounded-full border border-gold bg-paper-deep px-2.5 py-1 font-mono text-[10px] uppercase tracking-wide text-gold shadow-card transition hover:bg-gold hover:text-paper-deep"
+                  className="absolute left-4 top-4 z-[100] rounded-full border border-gold bg-paper-deep px-2.5 py-1 font-mono text-[10px] uppercase tracking-wide text-gold shadow-card transition hover:bg-gold hover:text-paper-deep"
                 >
-                  Web ↗
+                  Web url ↗
                 </a>
+              ) : (
+                <div className="absolute right-4 top-4 z-[100] text-red-500 font-bold">
+                  NO DEMO LINK
+                </div>
               )}
               <div>
                 <div className="mb-3 flex items-center justify-end">
