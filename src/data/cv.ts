@@ -6,7 +6,7 @@ export const profile = {
   email: "didierbazayesu@gmail.com",
   github: "github.com/didier-bazayesu",
   summary:
-    "Creative and technically skilled individual with hands-on experience in graphic design tools — Figma, Adobe Suite, and Canva — combined with strong full-stack web development skills. Experienced through academic projects and competitive hackathons, with a sharp eye for visual communication, branding, and UI design. Seeking a role to build a strong portfolio and contribute innovative visual solutions in a professional environment.",
+    "Full-Stack Web Developer with hands-on experience building real-world web applications using React, Node.js, JavaScript, HTML/CSS,Nest Js,Java, Tailwind CSS, PHP/MySQL, PostgreSQL, and Git/GitHub. Strong UI and visual design skills with Figma, Adobe Creative Suite, and Canva. Experienced in developing practical, user-focused web solutions through real-world projects and competitive hackathons, combining software development with a strong eye for usability, interface design, and visual presentation.",
 };
 
 export const designTools = [
